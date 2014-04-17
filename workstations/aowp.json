@@ -1,0 +1,20 @@
+{
+    "java": {
+        "install_flavor": "oracle",
+        "oracle": {
+            "accept_oracle_download_terms": true
+        }
+    },
+    "run_list": [
+        "recipe[build-essential]",
+        "recipe[nodejs::install_from_binary]",
+        "recipe[php]",
+        "recipe[java]",
+        "recipe[main]",
+        "recipe[main::nodejs]",
+        "recipe[main::webstorm]",
+        "recipe[main::aowp]",
+        "recipe[main::arcanist]",
+        "recipe[main::permissions]"
+    ]
+}

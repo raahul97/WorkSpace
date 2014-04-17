@@ -1,0 +1,12 @@
+<% @directory = Dir["#{node[:intellij_idea][:installation_folder]}/idea*"].first %>
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IntelliJ IDEA
+Exec="<%= @directory %>/bin/idea.sh" %f
+Icon=<%= @directory %>/bin/idea.png
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-idea

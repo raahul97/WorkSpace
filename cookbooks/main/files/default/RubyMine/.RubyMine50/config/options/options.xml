@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1215.656" x="603" y="228" />
+    <location key="OptionsEditor.0.0.1215.656" x="65" y="24" />
+    <size key="OptionsEditor.0.0.1215.656" width="1150" height="632" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.sun.java.swing.plaf.gtk.GTKLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RubyMine.full.reindex.required" value="1" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="installation.uid" value="a4baf6c3-640f-4a8d-a6a0-b6b4d3573177" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="evlsprt3.5" value="11" />
+  </component>
+</application>
+

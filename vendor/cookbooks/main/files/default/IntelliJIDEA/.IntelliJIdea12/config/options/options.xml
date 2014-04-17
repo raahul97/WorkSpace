@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1280.745" x="426" y="111" />
+    <location key="NewModule_or_Project.wizard.0.0.1280.745" x="268" y="24" />
+    <location key="WELCOME_SCREEN.0.0.1280.745" x="639" y="250" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.incors.plaf.alloy.AlloyIdea" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="installation.uid" value="718a26f7-836d-4816-a796-e775d55d379e" />
+    <property name="default.storage.format" value=".idea (directory based)" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="select.template.proportion" value="0.3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="evlsprt3.12" value="15" />
+  </component>
+</application>
+

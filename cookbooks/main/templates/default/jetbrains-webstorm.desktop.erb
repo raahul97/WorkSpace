@@ -1,0 +1,12 @@
+<% @directory = Dir["#{node[:intellij_idea][:installation_folder]}/WebStorm*"].first %>
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WebStorm
+Exec="<%= @directory %>/bin/webstorm.sh" %f
+Icon=<%= @directory %>/bin/webide.png
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-webstorm

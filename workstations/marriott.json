@@ -1,0 +1,20 @@
+{
+   
+    "run_list": [
+	"recipe[hostsupdate]",
+	"recipe[build-essential]",
+	"recipe[gitconfig::https]",
+	"recipe[tomcat7]",
+	"recipe[groovy]",
+	"recipe[groovy::wslite]",
+        "recipe[main]",
+	"recipe[php]",
+	"recipe[diffmerge]",
+	"recipe[php::module_curl]",
+	"recipe[php::module_json]",
+        "recipe[main::arcanist]",
+	"recipe[gradle]",
+	"recipe[eclipse]"
+	
+    ]
+}

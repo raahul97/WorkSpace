@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="GemManagerSettings" libraryVersion="3">
+    <sdk2gems sdk="RVM: ruby-1.9.3-p392">
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392/bundler/gems" />
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392/gems" />
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems">
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.4" name="bundler" version="1.3.4" timestamp="1364115512404" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko, Terence Lee, Carl Lerche, Yehuda Katz" email="andre@arko.net" homepage="http://gembundler.com">
+            <summary>The best way to manage your application's dependencies</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rake-10.0.3" name="rake" version="10.0.3" timestamp="1364115519316" parser_version="15" git="false">
+          <additional_info authors="Jim Weirich" email="jim@weirichhouse.org" homepage="http://rake.rubyforge.org">
+            <summary>Ruby based make-like utility.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rvm-1.11.3.6" name="rvm" version="1.11.3.6" timestamp="1364115524432" parser_version="15" git="false">
+          <additional_info authors="Wayne E. Seguin, Michal Papis" email="wayneeseguin@gmail.com, mpapis@gmail.com" homepage="https://rvm.beginrescueend.com/">
+            <summary>RVM Ruby Gem Library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rubygems-bundler-1.1.1" name="rubygems-bundler" version="1.1.1" timestamp="1364115510468" parser_version="15" git="false">
+          <additional_info authors="Josh Hull, Michal Papis" email="joshbuddy@gmail.com, mpapis@gmail.com" homepage="http://mpapis.github.com/rubygems-bundler">
+            <summary>Stop using bundle exec</summary>
+          </additional_info>
+        </gem>
+      </box>
+    </sdk2gems>
+    <sdk2gems sdk="RVM: ruby-1.9.3-p392 [global]">
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/bundler/gems" />
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems">
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.4" name="bundler" version="1.3.4" timestamp="1364115512404" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko, Terence Lee, Carl Lerche, Yehuda Katz" email="andre@arko.net" homepage="http://gembundler.com">
+            <summary>The best way to manage your application's dependencies</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rake-10.0.3" name="rake" version="10.0.3" timestamp="1364115519316" parser_version="15" git="false">
+          <additional_info authors="Jim Weirich" email="jim@weirichhouse.org" homepage="http://rake.rubyforge.org">
+            <summary>Ruby based make-like utility.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rvm-1.11.3.6" name="rvm" version="1.11.3.6" timestamp="1364115524432" parser_version="15" git="false">
+          <additional_info authors="Wayne E. Seguin, Michal Papis" email="wayneeseguin@gmail.com, mpapis@gmail.com" homepage="https://rvm.beginrescueend.com/">
+            <summary>RVM Ruby Gem Library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/rubygems-bundler-1.1.1" name="rubygems-bundler" version="1.1.1" timestamp="1364115510468" parser_version="15" git="false">
+          <additional_info authors="Josh Hull, Michal Papis" email="joshbuddy@gmail.com, mpapis@gmail.com" homepage="http://mpapis.github.com/rubygems-bundler">
+            <summary>Stop using bundle exec</summary>
+          </additional_info>
+        </gem>
+      </box>
+    </sdk2gems>
+  </component>
+</application>
+

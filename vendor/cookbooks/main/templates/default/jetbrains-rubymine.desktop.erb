@@ -1,0 +1,13 @@
+<% @directory = Dir["#{node[:rubymine][:installation_folder]}/RubyMine*"].first %>
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JetBrains RubyMine
+Exec="<%= @directory %>/bin/rubymine.sh" %f
+Icon=<%= @directory %>/bin/RMlogo.svg
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-rubymine

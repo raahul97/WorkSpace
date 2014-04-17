@@ -1,0 +1,40 @@
+{
+    "postgresql": {
+        "password": {
+            "postgres": "password"
+        }
+    },
+    "mysql": {
+        "server_root_password": "password",
+        "server_repl_password": "password",
+        "server_debian_password": "password"
+    },
+    "database": {
+        "users": [
+            {
+                "username":"development",
+                "password":"password",
+                "superuser": "true"
+            }
+        ]
+    },
+    "java": {
+        "install_flavor": "oracle",
+        "oracle": {
+            "accept_oracle_download_terms": true
+        }
+    },
+    "run_list": [
+        "recipe[build-essential]",
+        "recipe[imagemagick]",
+        "recipe[imagemagick::devel]",
+        "recipe[openssl]",
+        "recipe[java]",
+        "recipe[mysql::server]",
+        "recipe[postgresql::server]",
+        "recipe[main]",
+        "recipe[main::rails]",
+        "recipe[main::rubymine]",
+        "recipe[main::permissions]"
+    ]
+}

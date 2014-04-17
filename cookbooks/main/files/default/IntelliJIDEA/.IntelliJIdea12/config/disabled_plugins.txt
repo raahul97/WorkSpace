@@ -1,0 +1,6 @@
+CVS
+hg4idea
+PerforceDirectPlugin
+ClearcasePlugin
+SourceSafe
+TFS
